@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang=en class=js style><meta charset=utf-8>
+<link rel="icon" type="image/png" href="./assets/logo.png"/>
+<meta name="description" content="გრანდიოზული საიტი სადაც შეგიძლიათ ნახოთ ყველა ჩემი ნამუშევარი.">
+<head>
+<location path="sitecore">
+    <system.webServer>
+        <httpProtocol>
+            <customHeaders>
+                <remove name="X-Content-Type-Options">
+                <remove name="X-XSS-Protection">
+                <remove name="Content-Security-Policy" />
+                <add name="X-XSS-Protection" value="1; mode=block" />
+                <add name="X-Content-Type-Options" value="nosniff " />
+            </customHeaders>
+        </httpProtocol>
+    </system.webServer>
+</location>
+<meta name=viewport content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+<title>saur0n's hub</title>
+<style>html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}section{display:block}img{border-style:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}@media (min-width:641px){.has-animations [class*=reveal-]{will-change:opacity,transform}.has-animations.is-loaded [class*=reveal-]{transition:opacity .6s ease,transform .6s ease}.has-animations.is-loaded [class*=reveal-].is-revealed{opacity:1;transform:translate(0)}}html{box-sizing:border-box}img{display:block}html{font-size:20px;line-height:32px;letter-spacing:-0.1px}h3{font-family:"IBM Plex Sans",sans-serif;font-weight:600;clear:both;color:#ff9100;word-wrap:break-word;overflow-wrap:break-word}h3{font-size:24px;line-height:34px}p{margin-top:0;margin-bottom:24px}@media (min-width:641px){h3{font-size:32px;line-height:42px}}.container{width:100%;margin:0 auto; backface-visibility: hidden; padding-left:16px;padding-right:16px}@media (min-width:481px){.container{padding-left:24px;padding-right:24px}}.container{max-width:1128px}@-webkit-keyframes button-loading{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}@keyframes button-loading{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}@-webkit-keyframes slideUpInModal{0%{opacity:0;transform:translateY(-24px)}to{opacity:1;transform:translateY(0)}}@keyframes slideUpInModal{0%{opacity:0;transform:translateY(-24px)}to{opacity:1;transform:translateY(0)}}@-webkit-keyframes slideUpInModalBg{0%{opacity:0}to{opacity:1}}@keyframes slideUpInModalBg{0%{opacity:0}to{opacity:1}}.split-wrap{margin-top:-24px}.split-wrap:last-of-type{margin-bottom:-24px}.split-wrap:not(:last-of-type){margin-bottom:24px}.split-wrap .split-item{padding-top:24px;padding-bottom:24px;display:flex;flex-direction:column}.split-wrap .split-item .split-item-image{position:relative;width:100%}.split-wrap .split-item .split-item-image img{height:auto;max-width:100%;overflow:visible}.split-wrap .split-item .split-item-image.split-item-image-fill img{width:100%}@media (max-width:640px){.split-wrap.invert-mobile .split-item .split-item-content{order:1;margin-bottom:0!important}.split-wrap.invert-mobile .split-item .split-item-image{margin-bottom:24px}}@media (min-width:641px){.split-wrap{margin-top:-48px}.split-wrap:last-of-type{margin-bottom:-48px}.split-wrap:not(:last-of-type){margin-bottom:48px}.split-wrap .split-item{padding-top:48px;padding-bottom:48px;flex-direction:row;flex-wrap:nowrap;align-items:center;justify-content:flex-start}.split-wrap .split-item .split-item-content{flex-shrink:0;width:396px;margin-bottom:0;margin-right:64px}.split-wrap .split-item .split-item-image{min-width:436px}.split-wrap:not(.invert-desktop) .split-item:nth-child(even),.split-wrap.invert-desktop .split-item:nth-child(odd){justify-content:flex-end}.split-wrap:not(.invert-desktop) .split-item:nth-child(even) .split-item-content,.split-wrap.invert-desktop .split-item:nth-child(odd) .split-item-content{order:1;margin-left:64px;margin-right:0}.split-wrap:not(.invert-desktop) .split-item:nth-child(odd) .split-item-image img,.split-wrap:not(.invert-desktop) .split-item:nth-child(odd) .split-item-image svg,.split-wrap:not(.invert-desktop) .split-item:nth-child(odd) .split-item-image video,.split-wrap.invert-desktop .split-item:nth-child(even) .split-item-image img,.split-wrap.invert-desktop .split-item:nth-child(even) .split-item-image svg,.split-wrap.invert-desktop .split-item:nth-child(even) .split-item-image video{margin-left:auto}}@media (min-width:821px){.container .split-wrap .split-item .split-item-content{width:488px}.container .split-wrap .split-item .split-item-image{min-width:528px}}.section-inner{position:relative;padding-top:48px;padding-bottom:48px}@media (min-width:641px){.section-inner{padding-top:88px;padding-bottom:88px}}[class*=illustration-]{position:relative}[class*=illustration-]::after{pointer-events:none}[class*=illustration-element-]::after{z-index:-1}[class*=illustration-section-]::after{z-index:-2}.split-wrap .split-item-image img{border-radius:3px;box-shadow:0 48px 88px rgba(255, 145, 0,0.10)}.split-wrap .split-item-image.is-3d img{will-change:transform;transition:all 0.45s cubic-bezier(0.215,0.61,0.355,1)}.split-wrap .split-item-image.is-3d img:hover,.split-wrap .split-item-image.is-3d svg:hover,.split-wrap .split-item-image.is-3d video:hover{box-shadow:0 48px 88px rgba(255, 145, 0,0.10)!important;transform:perspective(1000px) rotateY(0deg) rotateX(0deg) rotateZ(0deg) scale(1) translateX(0) translateY(0)!important}.split-wrap:not(.invert-desktop) .split-item:nth-child(even) .split-item-image.is-3d img,.split-wrap:not(.invert-desktop) .split-item:nth-child(even) .split-item-image.is-3d svg,.split-wrap:not(.invert-desktop) .split-item:nth-child(even) .split-item-image.is-3d video,.split-wrap.invert-desktop .split-item:nth-child(odd) .split-item-image.is-3d img,.split-wrap.invert-desktop .split-item:nth-child(odd) .split-item-image.is-3d svg,.split-wrap.invert-desktop .split-item:nth-child(odd) .split-item-image.is-3d video{box-shadow:-24px 48px 88px rgba(255, 145, 0,0.10);transform:perspective(1000px) rotateY(13deg) rotateX(5deg) rotateZ(-7deg) scaleY(0.9) scaleX(0.95) translateX(3%) translateY(-3%)}.split-wrap:not(.invert-desktop) .split-item:nth-child(odd) .split-item-image.is-3d img,.split-wrap:not(.invert-desktop) .split-item:nth-child(odd) .split-item-image.is-3d svg,.split-wrap:not(.invert-desktop) .split-item:nth-child(odd) .split-item-image.is-3d video,.split-wrap.invert-desktop .split-item:nth-child(even) .split-item-image.is-3d img,.split-wrap.invert-desktop .split-item:nth-child(even) .split-item-image.is-3d svg,.split-wrap.invert-desktop .split-item:nth-child(even) .split-item-image.is-3d video{box-shadow:24px 48px 88px rgba(255, 145, 0,0.10);transform:perspective(1000px) rotateY(-13deg) rotateX(5deg) rotateZ(7deg) scaleY(0.9) scaleX(0.95) translateX(-3%) translateY(-3%)}@media (max-width:640px){.features-split .split-wrap.invert-mobile .split-item .split-item-image{margin-bottom:48px}}.center-content{text-align:center}.m-0{margin:0}.mt-0{margin-top:0}.mb-16{margin-bottom:16px}@media (max-width:640px){.center-content-mobile{text-align:center}}.sf-hidden{display:none!important}</style>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="styles.css">
+<body class="has-animations is-loaded" data-new-gr-c-s-check-loaded=14.1024.0 data-gr-ext-installed id="e_background">
+    <style class=sf-hidden>@media screen and (max-width:900px){#logoSection{visibility:hidden}}</style>
+    <section id=logoSection class="section center-content">
+        <div class="container mt-5">
+        </div>
+    </section>
+
+    <section class="features-split section">
+        <div class=container>
+            <div class="features-split-inner section-inner">
+                <!-- proeqtebis div -->
+                <div class="split-wrap invert-mobile">
+                    <!-- spammer -->
+                    <div class="split-item reveal-scale-up is-revealed">
+                        <div class="split-item-content center-content-mobile">
+                            <h3 class="mt-0 mb-16">
+                                Spammer
+                            </h3>
+                            <p class=m-0>
+                                სპამავს ნებისმიერ ჩატში, სასურველ ტექსტს, სასურველი რაოდენობით.
+                            </p>
+                        </div>
+                        <div class="split-item-image split-item-image-fill is-3d">
+                            <img src="https://media.giphy.com/media/7Q6IJHpQudYj873SSL/giphy.gif">
+                        </div>
+                    </div>
+                    <!-- loading screen -->
+                    <div class="split-item reveal-scale-up is-revealed">
+                        <div class="split-item-content center-content-mobile">
+                            <h3 class="mt-0 mb-16">
+                                Loading Screen
+                            </h3>
+                            <p class=m-0>
+                                ჩვეულებირვი loading-ის ეკრანის ანიმაცია რომელიც აწყობილია <strong>turtle.py</strong>-ს მეშვეობით.
+                            </p>
+                        </div>
+                        <div class="split-item-image split-item-image-fill is-3d">
+                            <img src="https://media.giphy.com/media/a7guqax1asaBgxEDeT/giphy.gif">
+                        </div>
+                    </div>
+                    <!-- iqsiki da noliki -->
+                    <div class="split-item reveal-scale-up is-revealed">
+                        <div class="split-item-content center-content-mobile">
+                            <h3 class="mt-0 mb-16">
+                                იქსიკი და ნოლიკი
+                            </h3>
+                            <p class=m-0>
+                                ჩვეულებივი იქსიკი და ნოლიკის თამაში რომელსაც ყველა ვთამაშობდით/ვთამაშობთ სკოლის დაფებზე.
+                                <br>
+                                აწყობილია <strong>pygame</strong>-ს მეშვეობით.
+                            </p>
+                        </div>
+                        <div class="split-item-image split-item-image-fill is-3d">
+                            <img src="https://media.giphy.com/media/vWGB1TpzIUJBhg946J/giphy.gif">
+                        </div>
+                    </div>
+                    <!-- katebis saiti (sound troll) -->
+                    <div class="split-item reveal-scale-up is-revealed">
+                        <div class="split-item-content center-content-mobile">
+                            <h3 class="mt-0 mb-16"> 
+                                კატების მაგარი საიტი
+                            </h3>
+                            <p class=m-0>
+                                საიტი რომლის დახმარებითაც შეგიძლიათ დატროლოთ თქვენი მეგობრები, როგორ? გადადით საიტზე და ნახეთ თქვენთვითონ. :)
+
+                                ლინკის დასამალად გამოიყენეთ <a class="links" href="https://bitly.com" target="_blank">bitly</a>
+                            <br><a href="https://magari-katebi.netlify.app" target="_blank"><button class="btn"><i class="fa fa-globe" aria-hidden="true"></i> საიტი</button></a>
+                            </p>
+                        </div>
+                        <div class="split-item-image split-item-image-fill is-3d">
+                            <img src="./assets/projects/katebi.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+        <center> 
+            <hr class="zmakaci"> 
+            <div class="yvavili">
+                <a class="zd" target="_blank" href="https://github.com/saur0nnn">
+                    GitHub
+                </a>
+                <a class="zd" target="_blank" href="https://www.youtube.com/channel/UC0QdWCuaUMyHXZqFdkDr0EQ">
+                    YouTube
+                </a>
+                <a class="zd" target="_blank" href="https://www.facebook.com/sauron.gamanadgurebeli/">
+                    FaceBook
+                </a>
+                <a class="zd" target="_blank" href="http://steamcommunity.com/profiles/76561199102700208">
+                    Steam
+                </a>
+            </div>
+        </center>
+    </section>
+</body>
+</html>
